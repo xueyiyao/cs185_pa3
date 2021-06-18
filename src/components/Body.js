@@ -5,6 +5,7 @@ import Image from "./body/Image";
 import Table from "./body/Table";
 import Video from "./body/Video";
 import Email from "./body/Email";
+import Zoom from "./body/zoom/Zoom";
 
 export class Body extends Component {
   getBody = () => {
@@ -20,6 +21,8 @@ export class Body extends Component {
         return <Table />;
       case 4:
         return <Email />;
+      case 5:
+        return <Zoom />;
       default:
         return "";
     }

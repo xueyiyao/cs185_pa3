@@ -3,7 +3,7 @@ import "./TabList.css";
 import Tab from "./Tab";
 
 export class TabList extends Component {
-  tabs = ["text", "image", "video", "table", "email"];
+  tabs = ["text", "image", "video", "table", "email", "zoom"];
 
   render() {
     return (

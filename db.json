@@ -1,0 +1,25 @@
+{
+  "meetings": [
+    {
+      "title": "CS185 S",
+      "date": "2021-03-26T23:21",
+      "link": "https://zoom.us",
+      "important": true,
+      "id": 1
+    },
+    {
+      "title": "CS185_Discussion",
+      "date": "2021-03-22T23:22",
+      "link": "https://zoom.us",
+      "important": true,
+      "id": 2
+    },
+    {
+      "title": "Newer Meeting",
+      "date": "2021-03-30T19:05",
+      "link": "https://zoom.us/otherlink",
+      "important": false,
+      "id": 4
+    }
+  ]
+}

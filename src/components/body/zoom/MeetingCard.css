@@ -1,0 +1,61 @@
+.meeting-card {
+  display: flex;
+  background-color: #2d8cff;
+  justify-content: space-between;
+  color: white;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* .card-other {
+  background-color: red;
+} */
+
+.card-text,
+.card-other {
+  padding: 20px;
+}
+.card-title,
+.card-date,
+.card-link {
+  display: block;
+}
+
+.card-important-tag {
+  color: #f26d21;
+}
+
+.card-text > a,
+.card-text > label {
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: x-large;
+}
+
+.close {
+  display: block;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #2d8cff;
+  border-radius: 100%;
+  background: -webkit-linear-gradient(
+      -45deg,
+      transparent 0%,
+      transparent 46%,
+      white 46%,
+      white 56%,
+      transparent 56%,
+      transparent 100%
+    ),
+    -webkit-linear-gradient(45deg, transparent 0%, transparent 46%, white 46%, white
+          56%, transparent 56%, transparent 100%);
+  background-color: #2d8cff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
